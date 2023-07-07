@@ -1,0 +1,13 @@
+server:
+  port: 8888
+spring:
+  datasource:
+    username: root
+    password: 815127439
+    url: jdbc:mysql://localhost:3306/springtest?serverTimezone=UTC&userUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+  type-aliases-package: com.lh.ssm.pojo
+  mapper-locations: classpath:mapper/*.xml
